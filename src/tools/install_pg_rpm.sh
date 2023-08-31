@@ -3,7 +3,7 @@ then
     VERSION=${BASH_REMATCH[1]}
     echo "Building ${VERSION}"
 else
-    VERSION=13.4
+    VERSION=15.4
 fi
 
 yum install -y dnf-plugins-core epel-release
