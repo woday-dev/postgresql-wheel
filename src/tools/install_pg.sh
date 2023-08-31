@@ -3,10 +3,10 @@ then
     VERSION=${BASH_REMATCH[1]}
     echo "Building ${VERSION}"
 else
-    VERSION=13.4
+    VERSION=15.4
 fi
 JOBS_NUMBER=4
-POSTGIS_VERSION=3.2.0
+POSTGIS_VERSION=3.4.0
 
 export DEBIAN_FRONTEND=noninteractive
 
